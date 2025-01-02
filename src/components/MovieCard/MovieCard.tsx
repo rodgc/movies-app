@@ -8,7 +8,6 @@ export const MovieCard = ({ movie }: MovieCardProps) => {
   const favorite = isFavorite(movie.id);
 
   const onFavorite = (e: React.MouseEvent<HTMLButtonElement>) => {
-    console.log('Test');
     e.preventDefault();
     if (favorite) {
       removeFromFavorites(movie.id);
