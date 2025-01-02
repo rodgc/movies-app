@@ -1,8 +1,6 @@
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-console.log(import.meta);
-
 if (!BASE_URL) {
   throw new Error('Missing BASE_URL');
 }
